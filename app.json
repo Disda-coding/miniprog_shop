@@ -1,0 +1,58 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/category/category",
+    "pages/goods_list/goods_list",
+    "pages/goods_detail/goods_detail",
+    "pages/cart/cart",
+    "pages/collect/collect",
+    "pages/order/order",
+    "pages/search/search",
+    "pages/user/user",
+    "pages/feedback/feedback",
+    "pages/login/login",
+    "pages/auth/auth",
+    "pages/pay/pay"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#15161B",
+    "navigationBarTitleText": "黑驴电商",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#4b4c4e",
+    "selectedColor": "#cdba9e",
+    "backgroundColor": "#15161B",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/_index.png",
+        "selectedIconPath": "icons/index.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "icons/_categories.png",
+        "selectedIconPath": "icons/categories.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "icons/_cart.png",
+        "selectedIconPath": "icons/cart.png"
+      },{
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "icons/_me.png",
+        "selectedIconPath": "icons/me.png"
+      }
+    ]
+  },
+  
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
