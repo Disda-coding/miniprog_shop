@@ -6,7 +6,10 @@ page,view,text,swiper,swiper-item,image,navigator{
 }
 page{
     /* 定义主题颜色 */
-    --themeColor:#15161B;
+    --themeColor:#cdba9e;
     /* 定义统一字体大小 */
     font-size: 28rpx;
+}
+image{
+    width: 100%;
 }
