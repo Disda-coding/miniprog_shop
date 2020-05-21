@@ -12,14 +12,15 @@
     <view class="index_swiper">
         <swiper autoplay indicator-dots circular indicator-active-color="#15161B " indicator-color="#4b4c4e">
             <swiper-item wx:for="{{swiperList}}" wx:key="goods_id">
-                <navigator></navigator>
-                <image mode="widthFix" src="{{item.image_src}}"></image>
+                <navigator url="/pages/goods_detail/goods_detail?goods_id={{item.goods_id}}">
+                  <image mode="widthFix" src="{{item.image_src}}"></image>
+                </navigator>
             </swiper-item>
         </swiper>
     </view>
     <!-- 导航 -->
     <view class="index_cate">
-      <navigator wx:for="{{catesList}}" wx:key="name">
+      <navigator wx:for="{{catesList}}" wx:key="name" url="/pages/category/category" open-type="switchTab">
         <image mode="widthFix" src="{{item.image_src}}">
           
         </image>

@@ -18,12 +18,12 @@
     <view class="user_main">
         <!-- 历史足迹 -->
         <view class="history_wrap">
-            <navigator url="">
-                <view class="his_num">1</view>
+            <navigator url="/pages/collect/collect">
+                <view class="his_num">0</view>
                 <view class="his_name">收藏的店铺</view>
             </navigator>
-            <navigator url="">
-                <view class="his_num">0</view>
+            <navigator url="/pages/collect/collect">
+                <view class="his_num">{{collectNums}}</view>
                 <view class="his_name">收藏的商品</view>
             </navigator>
              <navigator url="">
@@ -67,7 +67,7 @@
                 <text>联系客服</text>
                 <text>400-618-4000</text>
             </view>
-            <view class="app_info_item">意见反馈</view>
+            <navigator url="/pages/feedback/feedback" class="app_info_item">意见反馈</navigator>
             <view class="app_info_item">关于我们</view>
         </view>
         <!-- 推荐 -->

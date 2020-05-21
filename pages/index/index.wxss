@@ -2,7 +2,7 @@
   width: 750rpx;
   height: 340rpx;
 }
-.index_swiper swiper image {
+.index_swiper swiper navigator image {
   width: 100%;
 }
 .index_cate {
