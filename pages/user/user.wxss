@@ -1,1 +1,116 @@
-/* pages/user/user.wxss */
+page {
+  background-color: #15161B;
+  color: #cdba9e;
+}
+.user_info_wrap {
+  height: 45vh;
+  overflow: hidden;
+  background-color: #15161B;
+  position: relative;
+}
+.user_info_wrap .user_img_wrap {
+  position: relative;
+}
+.user_info_wrap .user_img_wrap .user_bg {
+  height: 50vh;
+  width: 100%;
+  filter: blur(10rpx);
+}
+.user_info_wrap .user_img_wrap .user_info {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20%;
+  text-align: center;
+}
+.user_info_wrap .user_img_wrap .user_info .user_icon {
+  width: 165rpx;
+  height: 165rpx;
+  border-radius: 50%;
+}
+.user_info_wrap .user_img_wrap .user_info .user_name {
+  color: white;
+  margin-top: 40rpx;
+}
+.user_info_wrap .user_btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: greenyellow;
+  font-size: 38rpx;
+  padding: 30rpx;
+  border-radius: 10rpx;
+}
+.user_content {
+  position: relative;
+}
+.user_content .user_main {
+  padding-bottom: 100rpx;
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -40rpx;
+}
+.user_content .history_wrap {
+  background-color: #4b4c4e;
+  display: flex;
+  flex-direction: row;
+}
+.user_content .history_wrap navigator {
+  flex: 1;
+  text-align: center;
+  padding: 10rpx 0;
+}
+.user_content .history_wrap navigator .his_num {
+  color: #cdba9e;
+}
+.user_content .history_wrap navigator .his_name {
+  color: #cdba9e;
+}
+.user_content .orders_wrap {
+  background: #4b4c4e;
+  margin-top: 30rpx;
+}
+.user_content .orders_wrap .orders_title {
+  color: #cdba9e;
+  padding: 20rpx;
+  border-bottom: 1px solid #15161B;
+}
+.user_content .orders_wrap .order_content {
+  display: flex;
+}
+.user_content .orders_wrap .order_content navigator {
+  padding: 15rpx 0;
+  flex: 1;
+  text-align: center;
+}
+.user_content .orders_wrap .order_content navigator .iconfont {
+  color: #cdba9e;
+  font-size: 40rpx;
+}
+.user_content .orders_wrap .order_content navigator .order_name {
+  color: #cdba9e;
+}
+.user_content .address_wrap {
+  margin-top: 30rpx;
+  background-color: #4b4c4e;
+  padding: 20rpx;
+}
+.user_content .app_info_wrap {
+  margin-top: 30rpx;
+  background-color: #4b4c4e;
+}
+.user_content .app_info_wrap .app_info_item {
+  padding: 20rpx;
+  border-bottom: 1px solid #000;
+}
+.user_content .app_info_wrap .app_info_contact {
+  display: flex;
+  justify-content: space-between;
+}
+.user_content .recommend_wrap {
+  margin-top: 30rpx;
+  background-color: #4b4c4e;
+  padding: 20rpx;
+}
